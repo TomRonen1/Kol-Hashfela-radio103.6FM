@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/social_button_background"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_facebook"
+            android:tag="1"
+            android:tint="#4760A5"
+            android:id="@+id/facebook_button"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/social_button_background"
+            android:backgroundTint="#00FF5B00"
+            android:padding="0.5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/instagramer"
+            android:tag="5"
+            android:tint="#00FFFFFF"
+            android:id="@+id/soundcloud_button"/>
+        <ImageButton
+            android:id="@+id/website"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/social_button_background"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+            android:backgroundTint="@color/darkBlue"
+            android:src="@drawable/inteneticon1"
+            android:tint="@android:color/white"
+            android:tag="6"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/social_button_background"
+            android:backgroundTint="#D64531"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_gmail"
+            android:tag="3"
+            android:tint="@android:color/white"
+            android:id="@+id/gmail_button"/>
+
+        <ImageButton
+            android:id="@+id/whatsapp_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/social_button_background"
+            android:backgroundTint="#44c24b"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_whatsapp"
+            android:tag="6"
+            android:tint="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/social_button_background"
+            android:foregroundTint="@android:color/black"
+            android:padding="6dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/shpsp"
+            android:tag="4"
+            android:backgroundTint="#ECAF56"
+            android:tint="@android:color/white"
+            android:id="@+id/archive"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/social_button_background"
+            android:backgroundTint="#DA2219"
+            android:foregroundTint="@android:color/white"
+            android:padding="6dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_youtube"
+            android:tag="4"
+            android:tint="@android:color/white"
+            android:id="@+id/youtube_button"/>
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/social_button_background"
+            android:backgroundTint="#50ABF1"
+            android:padding="7dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_twitter"
+            android:tag="2"
+            android:tint="@android:color/white"
+            android:id="@+id/twitter_button"/>
+
+    </LinearLayout>
+</LinearLayout>
